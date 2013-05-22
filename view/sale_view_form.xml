@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!-- This file is part of sale_payment_web module for Tryton.
+The COPYRIGHT file at the top level of this repository contains the full
+copyright notices and license terms. -->
+<data>
+    <xpath expr="/form/notebook/page/field[@name=&quot;company&quot;]"
+            position="after">
+        <label name="paid_in_web"/>
+        <field name="paid_in_web"/>
+    </xpath>
+</data>

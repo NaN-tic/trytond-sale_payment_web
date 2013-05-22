@@ -1,0 +1,79 @@
+# 
+msgid ""
+msgstr "Content-Type: text/plain; charset=utf-8\n"
+
+msgctxt "field:sale.payment.web,create_date:"
+msgid "Create Date"
+msgstr "Data creació"
+
+msgctxt "field:sale.payment.web,create_uid:"
+msgid "Create User"
+msgstr "Usuari creació"
+
+msgctxt "field:sale.payment.web,date:"
+msgid "Date"
+msgstr "Data"
+
+msgctxt "field:sale.payment.web,description:"
+msgid "Description"
+msgstr "Descripció"
+
+msgctxt "field:sale.payment.web,id:"
+msgid "ID"
+msgstr "Id"
+
+msgctxt "field:sale.payment.web,rec_name:"
+msgid "Name"
+msgstr "Nom"
+
+msgctxt "field:sale.payment.web,sale:"
+msgid "Sale"
+msgstr "Venda"
+
+msgctxt "field:sale.payment.web,state:"
+msgid "State"
+msgstr "Estat"
+
+msgctxt "field:sale.payment.web,write_date:"
+msgid "Write Date"
+msgstr "Data modificació"
+
+msgctxt "field:sale.payment.web,write_uid:"
+msgid "Write User"
+msgstr "Usuari modificació"
+
+msgctxt "field:sale.sale,paid_in_web:"
+msgid "Paid in web"
+msgstr "Pagament a web"
+
+msgctxt "model:ir.action,name:act_sale_payment_web"
+msgid "Web Payments"
+msgstr "Pagaments web"
+
+msgctxt "model:ir.ui.menu,name:menu_sale_payment_web"
+msgid "Web Payments"
+msgstr "Pagaments web"
+
+msgctxt "model:sale.payment.web,name:"
+msgid "Sale Payment Web"
+msgstr "Vendes pagament a web"
+
+msgctxt "selection:sale.payment.web,state:"
+msgid "Done"
+msgstr "Realitzat"
+
+msgctxt "selection:sale.payment.web,state:"
+msgid "Error"
+msgstr "Error"
+
+msgctxt "selection:sale.payment.web,state:"
+msgid "Pending"
+msgstr "Pendent"
+
+msgctxt "view:sale.payment.web:"
+msgid "Web Payment"
+msgstr "Pagament web"
+
+msgctxt "view:sale.payment.web:"
+msgid "Web Payments"
+msgstr "Pagaments web"
