@@ -20,14 +20,14 @@ class Sale:
 class SalePaymentWeb(ModelSQL, ModelView):
     'Sale Payment Web'
     __name__ = 'sale.payment.web'
-    sale = fields.Many2One('sale.sale', 'Sale', required=True)
-    date = fields.DateTime('Date', required=True)
-    description = fields.Char('Description')
+    sale = fields.Many2One('sale.sale', 'Sale', required=True, readonly=True)
+    date = fields.DateTime('Date', required=True, readonly=True)
+    description = fields.Char('Description', readonly=True)
     state = fields.Selection([
         ('done', 'Done'),
         ('pending', 'Pending'),
         ('error', 'Error'),
-    ], 'State', required=True)
+    ], 'State', required=True, readonly=True)
 
     @staticmethod
     def default_date():
