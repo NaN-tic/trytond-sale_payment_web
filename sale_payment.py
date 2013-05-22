@@ -27,6 +27,7 @@ class SalePaymentWeb(ModelSQL, ModelView):
         ('done', 'Done'),
         ('pending', 'Pending'),
         ('error', 'Error'),
+        ('cancel', 'Cancel'),
     ], 'State', required=True, readonly=True)
 
     @staticmethod
